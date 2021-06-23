@@ -1,0 +1,97 @@
+body{
+    background-image: url("man-593333_1920.jpg");
+    font-family: "Bradley Hand", Times, serif;
+}
+#none{
+    color: yellow;
+}
+h1{
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.maincard{
+    margin-left: 250px;
+    align-content: center;
+    height: 250px;
+    width: 600px;
+}
+textarea{
+    height: 250px;
+    width: 800px;
+}
+#addBtn{
+    margin-top: 10px;;
+}
+@media only screen and (max-width:700px) {
+    .maincard{
+        margin-left: 60px;
+        align-content: center;
+        height: 250px;
+        width: 400px;
+    }
+    .card-body{
+        
+    }
+    #addText{
+
+    }
+    .card-title{
+
+    }
+    #addBtn{
+        /*margin-top: 5px;*/
+    }
+}
+
+@media only screen and (min-width:1400px) {
+    .maincard{
+        margin-left: 250px;
+        align-content: center;
+        height: 700px;
+        width: 1000px;
+    }
+    h1{
+        font-size: 120px;   
+    }
+  
+    .text{
+        font-size: 40px;
+    } 
+    #addText{
+        height: 150px;
+    }
+   
+    .card-title{
+        font-size: 90px;
+    }
+    #addBtn{
+        margin-top: 15px;
+        height: 70px;
+        width: 300px;
+        font-size: 40px;
+    }
+    .card-body{
+        width: 600px;
+    }
+}
+@media only screen and (max-width:991px) {
+    .maincard{
+        margin-left: 120px;
+        align-content: center;
+        height: 250px;
+        width: 500px;
+    }
+    .card-body{
+        
+    }
+    #addText{
+
+    }
+    .card-title{
+
+    }
+    #addBtn{
+        /*margin-top: 5px;*/
+    }
+}
